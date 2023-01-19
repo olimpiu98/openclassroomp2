@@ -1,0 +1,29 @@
+@media screen and (min-width: 1024px) {
+	.menu {
+		flex-direction: row;
+		max-width: 1000px;
+		margin: auto;
+	}
+	.home__title {
+		margin: auto;
+		max-width: 980px;
+	}
+	.card__container {
+		max-width: none;
+	}
+	.wrapper__restaurant_pages {
+		margin-top: -40%;
+	}
+	.card__img-top {
+		max-height: 400px;
+	}
+	.content__desktop {
+		margin: auto;
+		max-width: 1000px;
+	}
+	.footer__desktop {
+		display: flex;
+		justify-content: space-around;
+		padding-top: 20px;
+	}
+}

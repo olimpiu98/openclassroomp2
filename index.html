@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Ohmyfood</title>
+		<!-- Styling for website   -->
+		<link rel="stylesheet" href="./styles.css" />
+		<!-- Styling for website   -->
+		<!-- Fonts for website   -->
+		<link rel="preconnect" href="https://fonts.googleapis.com" />
+		<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+		<link href="https://fonts.googleapis.com/css2?family=Shrikhand&display=swap" rel="stylesheet" />
+		<link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;700&display=swap" rel="stylesheet" />
+		<!-- Fonts for website   -->
+		<!-- FAicons for website   -->
+		<link
+			rel="stylesheet"
+			href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.0/css/all.min.css"
+			integrity="sha512-xh6O/CkQoPOWDdYTDqeRdPCVd1SpvCA9XXcUnZS2FmJNp1coAFzvtCN9BmamE+4aHK8yyUHUSCcJHgXloTyT2A=="
+			crossorigin="anonymous"
+			referrerpolicy="no-referrer"
+		/>
+		<!-- FAicons for website   -->
+	</head>
+
+	<body>
+		<div class="loader_background">
+			<div class="loader"></div>
+		</div>
+		<header>
+			<div class="home logo logo__home"><a href="#logo">ohmyfood</a></div>
+			<div class="home home__location">
+				<a href="#location"> <i class="fa-solid fa-location-dot home__padding_right"></i> Paris, Belleville</a>
+			</div>
+			<div class="home home__description">
+				<h2>Book the menu you like</h2>
+				<p>Discover top-of-the-art restaurants we picked for you</p>
+				<button class="btn btn__explore">Explore our restaurants</button>
+			</div>
+		</header>
+		<section class="wrapper">
+			<h2 class="home__title">How it works</h2>
+			<ul class="menu">
+				<li class="menu__large">
+					<button class="btn__ul_button">
+						<span class="btn__ul_number">1</span><i class="padding_30x20 fa-solid fa-mobile-screen"></i>Chose a restaurant
+					</button>
+				</li>
+				<li class="menu__large">
+					<button class="btn__ul_button">
+						<span class="btn__ul_number">2</span><i class="padding_30x20 fa-solid fa-list-ul"></i>Create your menu
+					</button>
+				</li>
+				<li class="menu__large">
+					<button class="btn__ul_button" autofocus>
+						<span class="btn__ul_number">3</span><i class="padding_30x20 fa-solid fa-store"></i>Go enjoy it at the restaurant
+					</button>
+				</li>
+			</ul>
+		</section>
+		<main class="wrapper wrapper__background">
+			<div class="content__desktop">
+				<h2 class="home__title">Restaurants</h2>
+				<div class="card__container">
+					<a href="./pages/fullpalette.html">
+						<div class="card">
+							<span class="card__status">New</span>
+							<img src="./images/restaurants/jay-wennington-N_Y88TWmGwA-unsplash.jpg" class="card__img-top" alt="text in here" />
+							<div class="card__body">
+								<h5 class="card__title">The Full Palette</h5>
+								<p>New York</p>
+							</div>
+						</div>
+					</a>
+					<button class="card__rating__home card__rating">
+						<i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart card__rating__heart-solid"></i>
+					</button>
+				</div>
+				<div class="card__container">
+					<a href="./pages/enchantedplate.html">
+						<div class="card">
+							<span class="card__status">New</span>
+							<img src="./images/restaurants/stil-u2Lp8tXIcjw-unsplash.jpg" class="card__img-top" alt="text in here" />
+							<div class="card__body">
+								<h5 class="card__title">The Enchanted Plate</h5>
+								<p>New York</p>
+							</div>
+						</div>
+					</a>
+					<button class="card__rating__home card__rating">
+						<i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart card__rating__heart-solid"></i>
+					</button>
+				</div>
+				<div class="card__container">
+					<a href="./pages/bastille.html">
+						<div class="card">
+							<img src="./images/restaurants/toa-heftiba-DQKerTsQwi0-unsplash.jpg" class="card__img-top" alt="text in here" />
+							<div class="card__body">
+								<h5 class="card__title">Bastille</h5>
+								<p>New York</p>
+							</div>
+						</div>
+					</a>
+					<button class="card__rating__home card__rating">
+						<i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart card__rating__heart-solid"></i>
+					</button>
+				</div>
+				<div class="card__container">
+					<a href="./pages/gourmand.html">
+						<div class="card">
+							<img
+								src="./images/restaurants/louis-hansel-shotsoflouis-qNBGVyOCY8Q-unsplash.jpg"
+								class="card__img-top"
+								alt="text in here"
+							/>
+							<div class="card__body">
+								<h5 class="card__title">Le Gourmand</h5>
+								<p>New York</p>
+							</div>
+						</div>
+					</a>
+					<button class="card__rating__home card__rating">
+						<i class="fa-regular fa-heart"></i><i class="fa-solid fa-heart card__rating__heart-solid"></i>
+					</button>
+				</div>
+			</div>
+		</main>
+		<footer class="footer wrapper">
+			<ul class="footer__desktop">
+				<li class="footer__heading">ohmyfood</li>
+				<li class="footer__text"><i class="fa-solid fa-utensils"></i><a href="#"> Suggest a restaurant</a></li>
+				<li class="footer__text"><i class="fa-solid fa-handshake-angle"></i><a href="#"> Become a partner</a></li>
+				<li class="footer__text"><a href="#">Legal</a></li>
+				<li class="footer__text">
+					<a href="mailto:fake@email.com?subject=Restaurant">Contact</a>
+				</li>
+			</ul>
+		</footer>
+	</body>
+</html>

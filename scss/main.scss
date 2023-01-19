@@ -1,0 +1,16 @@
+$font-family-title: "Shrikhand", sans-serif;
+$font-family-standard: "Roboto", sans-serif;
+$primary-color: #9356dc;
+$secondary-color: #ff79da;
+$tertiary-color: #99e2d0;
+$background-grey: #eaeaea;
+$background-grey-light: #f6f6f6;
+$background-footer: #353535;
+$white-color: #fff;
+
+@import "utility";
+@import "base";
+@import "cards";
+@import "menu";
+@import "desktopview";
+@import "animations";

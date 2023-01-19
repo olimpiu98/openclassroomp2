@@ -1,0 +1,74 @@
+.card {
+	margin-bottom: 15px;
+	display: flex;
+	flex-direction: column;
+	background-color: #fff;
+	box-shadow: 0 5px 20px rgba(0, 0, 0, 0.2);
+	border-radius: 20px;
+	&__body {
+		padding: 20px 20px;
+	}
+	&__title {
+		margin: 0;
+	}
+	&__status {
+		position: absolute;
+		right: 10px;
+		top: 10px;
+		color: #39816f;
+		background-color: $tertiary-color;
+		border-radius: 2px;
+		padding: 7px 30px 7px 30px;
+	}
+	&__rating {
+		position: absolute;
+		font-size: 1.6rem;
+		background: none;
+		border: none;
+		padding: 0;
+
+		&__home {
+			bottom: 65px;
+			right: 60px;
+		}
+		&__pages {
+			top: 35px;
+			right: 80px;
+		}
+		&__heart-solid {
+			opacity: 0;
+			background: $primary-color;
+			background: radial-gradient(circle at 22% 107%, $secondary-color 45%, $primary-color 60%, $primary-color 90%);
+			background-clip: text;
+			-webkit-background-clip: text;
+			-webkit-text-fill-color: transparent;
+			transition: 0.5s;
+			&:hover {
+				opacity: 1;
+			}
+		}
+	}
+	&__img-top {
+		object-fit: cover;
+		max-height: 200px;
+		border-top-left-radius: 19px;
+		border-top-right-radius: 19px;
+		object-position: 50% 60%;
+	}
+	&__container {
+		position: relative;
+		max-width: 500px;
+		margin: auto;
+	}
+	&__restaurant_container {
+		height: 70px;
+		border-radius: 10px;
+		flex-direction: row;
+	}
+}
+
+.fa-heart {
+	cursor: pointer;
+	position: absolute;
+	padding: 10px;
+}

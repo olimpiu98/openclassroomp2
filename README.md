@@ -1,2 +1,31 @@
-# openclassroomp2
-https://olimpiu98.github.io/openclassroomp2
+# Ohmyfood
+
+## Overview
+
+-Ohmyfood is an online food ordering service that allows users to view menus and compose their order in advance to reduce waiting times at restaurants.
+
+-This project is for the initial Paris launch of the service, featuring menus from four top local restaurants.
+
+## Features
+
+- Homepage with restaurant location map and summary sections
+- Four individual restaurant menu pages with dishes that can be selected to compose an order
+- Fully responsive design optimized for mobile
+  -Animated interactions and transitions using CSS only (no JavaScript)
+  meets W3C validation requirements
+
+## Technical Details
+
+- Developed using HTML, CSS, Sass
+- Mobile-first and fully responsive
+- Validated for HTML and CSS
+- Tested across modern browsers
+
+## Animations
+
+Some of the animated elements:
+
+- Loading spinner on home page
+- Staggered item reveal on menu pages
+- Checkmark icon slides in on dish select
+- Like button fill on hover

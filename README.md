@@ -1,4 +1,14 @@
-# Ohmyfood
+# Ohmyfood Website
+
+> Github : https://github.com/olimpiu98/openclassroomp2
+
+> Web preview: https://olimpiu98.github.io/openclassroomp2/
+
+This project involves building the new [Ohmyfood website](https://olimpiu98.github.io/openclassroomp2/) based on the provided mockups and specifications.
+
+### Screenshot
+
+![Ohmyfood](https://github.com/olimpiu98/openclassroomp1/assets/104469153/5a771170-013f-4d5f-8f28-46af5d9133cc)
 
 ## Overview
 

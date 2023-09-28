@@ -9,7 +9,7 @@ This project involves building the new [Ohmyfood website](https://olimpiu98.gith
 
 ### Screenshot
 
-![Ohmyfood-1](https://github.com/olimpiu98/openclassroomp2/assets/104469153/f34b649c-15b1-418e-b716-50b16fe6a004)
+![Ohmyfood-2](https://github.com/olimpiu98/openclassroomp2/assets/104469153/76a06d6b-0165-4053-bc54-6ef0ed5d9236)
 
 
 ## Overview

@@ -12,9 +12,9 @@ This project involves building the new [Ohmyfood website](https://olimpiu98.gith
 
 ## Overview
 
--Ohmyfood is an online food ordering service that allows users to view menus and compose their order in advance to reduce waiting times at restaurants.
+- Ohmyfood is an online food ordering service that allows users to view menus and compose their order in advance to reduce waiting times at restaurants.
 
--This project is for the initial Paris launch of the service, featuring menus from four top local restaurants.
+- This project is for the initial Paris launch of the service, featuring menus from four top local restaurants.
 
 ## Features
 
